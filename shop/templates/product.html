@@ -1,0 +1,29 @@
+{%extends "shop/basic.html" %}
+    {%block title %}product details{%endblock%}
+   {% block css %}
+   <style>
+
+   </style>
+   {% endblock %}
+  
+
+   {%block body %}
+ 
+<div style="  display: flex;
+justify-content: center;background-color:white;
+text-align:center; padding-top: 50px;" >
+  <div>
+    <img src="/media/{{Product.image}}" alt="" height="250px" width="250px">
+    <h4>{{Product.product_id}}</h4>
+    <h4>{{Product.product_name}}</h4>
+    <h4>{{Product.category}}</h4>
+    <h4>{{Product.subcategory}}</h4>
+    <h4>₹{{Product.price}}</h4>
+    <h4>{{Product.desc}}</h4>
+    <h4>{{Product.pub_data}}</h4>
+    <button style="background-color: yellow; border: none;">Buy Now</button>
+    <button style="background-color: orangered; border: none;">Add To Card</button>
+  </div>
+</div>
+    
+    {%endblock%}
