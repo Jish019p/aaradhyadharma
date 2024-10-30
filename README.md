@@ -1,2 +1,2 @@
 # aaradhyadharma
-its commercial website for buying fashion clothes and accessories.
+its commercial website clone for buying fashion clothes and accessories.
